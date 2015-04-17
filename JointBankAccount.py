@@ -26,7 +26,7 @@ class JointBankAccount(BankAccount):
     def __del__(self):
         # The "self.__class__.__name__" dynamically gets the name
         # of the class, in this case "JointBankAccount"
-        print("Destroying " + self.__class__.__name__)
+        print("Destroying class " + self.__class__.__name__)
 
     # Print account
     # This overrides the "toString(self)" function in parent
