@@ -73,12 +73,12 @@ creditAccount = CreditBankAccount("Bob Smith", 50)
 
 # Call the makeWithdrawal function with 3 different types of oject
 # Notice the behavior is appropriate to each object type as expected
-#print("About to withdraw 75 from BankAccount")
-#makeWithdrawal(basicAccount, 75)
-#print("About to withdraw 75 from JointBankAccount")
-#makeWithdrawal(jointAccount, 75)
-#print("About to withdraw 75 from CreditBankAccount")
-#makeWithdrawal(creditAccount, 75)
+print("About to withdraw 75 from BankAccount")
+makeWithdrawal(basicAccount, 75)
+print("About to withdraw 75 from JointBankAccount")
+makeWithdrawal(jointAccount, 75)
+print("About to withdraw 75 from CreditBankAccount")
+makeWithdrawal(creditAccount, 75)
 
 # After this point the 3 objects (basicAccount, jointAccount, creditAccount) go out of scope
 # and will be deleted.  Notice the destructor messages for the objects are printed out
