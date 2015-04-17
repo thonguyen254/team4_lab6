@@ -56,6 +56,10 @@ class BankAccount:
     def setBalance(self, newBalance):
         self.__balance = newBalance
 
+    # Set owner
+    def setOwner(self, newOwner):
+        self.owner = newOwner
+
     # Print account
     def toString(self):
         # Notice how "self.__balance" is inside the "str()" function but
