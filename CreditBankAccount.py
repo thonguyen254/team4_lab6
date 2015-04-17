@@ -24,7 +24,7 @@ class CreditBankAccount(BankAccount):
     def __del__(self):
         # The "self.__class__.__name__" dynamically gets the name
         # of the class, in this case "CreditBankAccount"
-        print("Destroying " + self.__class__.__name__)
+        print("Destroying class " + self.__class__.__name__)
 
     # Withdraw money
     # This overrides the "withdraw(self, amount)" function in parent
